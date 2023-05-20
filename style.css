@@ -1,0 +1,183 @@
+  @font-face {
+      font-family: 'DomaineText';
+      font-weight: normal;
+      font-style: normal;
+      src: url("../webfonts/DomaineTextWeb-Regular.woff2") format("woff2"), url("../webfonts/DomaineTextWeb-Regular.woff") format("woff")
+  }
+
+  @font-face {
+      font-family: 'DomaineText';
+      font-weight: normal;
+      font-style: italic;
+      src: url("../webfonts/DomaineTextWeb-RegularItalic.woff2") format("woff2"), url("../webfonts/DomaineTextWeb-RegularItalic.woff") format("woff")
+  }
+
+  @font-face {
+      font-family: 'DomaineDisplayNarrow';
+      font-weight: bold;
+      font-style: normal;
+      src: url("../webfonts/DomaineDisplayNarrowWeb-Semibold.woff2") format("woff2"), url("../webfonts/DomaineDisplayNarrowWeb-Semibold.woff") format("woff")
+  }
+
+  @font-face {
+      font-family: 'Dia';
+      font-weight: 900;
+      font-style: normal;
+      src: url("../webfonts/Dia-Black.woff2") format("woff2"), url("../webfonts/Dia-Black.woff") format("woff")
+  }
+
+@font-face {
+      font-family: 'Dia';
+      font-weight: 900;
+      font-style: italic;
+      src: url("../webfonts/Dia-BlackItalic.woff2") format("woff2"), url("../webfonts/Dia-BlackItalic.woff") format("woff")
+  }
+
+
+
+
+.html, .body {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "DomaineText", Georgia, serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #443235;
+    background: #e6ddde;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+.header div.logo {
+    margin-top: 3.75rem;
+    text-align: center
+}
+
+
+
+.header div.logo img {
+    width: 15.3125rem;
+    height: 4.5rem;
+}
+
+
+.header div.tagline {
+    margin-top: .0625rem;
+    font-family: "DomaineText", Georgia, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+}
+
+
+.header div.tagline a, .header div.tagline a:hover, .header div.tagline a:focus {
+    color: #654a4e;
+}
+
+.navbar {
+    margin-top: 2.5rem;
+    border-top: 1px solid #916a70;
+    padding-top: .875rem;
+    padding-bottom: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    white-space: nowrap;
+    margin: 0;
+    display: inline-block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-family: "Dia", Arial, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 2.2;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.navbar ul li a {
+    color: #654a4e;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus {
+    color: #654a4e;
+    border-bottom: 2px solid #916a70;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.navbar ul li a.current, .navbar ul li a.current:hover, .navbar ul li a.current:focus {
+    color: #916a70;
+    border: none;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    color: #654a4e;
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+    
+}
+
+.h1 {
+    font-size: 50px;
+    word-break: break-all;
+    
+}
+
+.row1 {
+    margin: 8px -16px;
+}
+
+.row1,.row1>.column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    background-color: white;
+    padding: 10px;
+    
+}
+
